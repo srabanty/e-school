@@ -1,12 +1,20 @@
 .App {
   text-align: center;
 }
-
+.main-body{
+  display: flex;
+}
+.course-detail{
+  width: 90%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.footer-design{
+  padding: 30px;
+  background-color: lightgray;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
